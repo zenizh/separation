@@ -15,4 +15,6 @@ Gem::Specification.new do |s|
   s.files = `git ls-files -z`.split("\x0")
 
   s.add_dependency 'rails', '>= 4.1.0'
+
+  s.add_development_dependency 'rspec-rails'
 end
