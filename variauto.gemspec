@@ -1,23 +1,18 @@
-$:.push File.expand_path("../lib", __FILE__)
+$:.unshift File.expand_path('../lib', __FILE__)
 
-# Maintain your gem's version:
-require "variauto/version"
+require 'variauto/version'
 
-# Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "variauto"
+  s.name        = 'variauto'
   s.version     = Variauto::VERSION
-  s.authors     = ["kami"]
-  s.email       = ["kami30k@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Variauto."
-  s.description = "TODO: Description of Variauto."
-  s.license     = "MIT"
+  s.authors     = 'kami'
+  s.email       = 'kami30k@gmail.com'
+  s.homepage    = 'https://github.com/kami30k/variauto'
+  s.summary     = 'Set request.variant to user device type automatically for Rails.'
+  s.description = 'Set request.variant to user device type automatically for Rails.'
+  s.license     = 'MIT'
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
+  s.files = `git ls-files -z`.split("\x0")
 
-  s.add_dependency "rails", "~> 4.2.1"
-
-  s.add_development_dependency "sqlite3"
+  s.add_dependency 'rails', '>= 4.1.0'
 end
