@@ -12,7 +12,7 @@ describe PagesController, type: :controller do
 
         get :show
 
-        expect(response.body).to have_content content
+        expect(response.body).to match Regexp.escape(content)
       end
     end
   end
