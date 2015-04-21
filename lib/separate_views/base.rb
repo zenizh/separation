@@ -1,4 +1,4 @@
-module Variauto
+module SeparateViews
   module Base
     class << self
       def included(base)

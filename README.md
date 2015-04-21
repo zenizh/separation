@@ -1,16 +1,17 @@
-# Variauto
+# separate_views
 
-[![Build Status](https://travis-ci.org/kami30k/variauto.svg)](https://travis-ci.org/kami30k/variauto)
-[![Gem Version](https://badge.fury.io/rb/variauto.svg)](http://badge.fury.io/rb/variauto)
+[![Build Status](https://travis-ci.org/kami30k/separate_views.svg)](https://travis-ci.org/kami30k/separate_views)
+[![Gem Version](https://badge.fury.io/rb/separate_views.svg)](http://badge.fury.io/rb/separate_views)
 
-Variauto set request.variant to user device type automatically for Rails.
+separate_views renders separate views depending on the user device type for Rails.
+This feature is realized by Action Pack Variants.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'variauto'
+gem 'separate_views'
 ```
 
 And then execute:
@@ -21,7 +22,7 @@ $ bundle
 
 ## Usage
 
-Once you added to Gemfile, you can use specific views according to user device type, such as `phone`, `tablet`, and `desktop`.
+Once you added to Gemfile, you can use specific views depending on the user device type, such as `phone`, `tablet`, and `desktop`.
 
 The relation between user device type and file name is as follows:
 
@@ -36,7 +37,7 @@ If you don't prepare specific view, Rails application renders default view (e.g.
 
 ## Contributing
 
-1. Fork it ( https://github.com/kami30k/variauto/fork )
+1. Fork it ( https://github.com/kami30k/separate_views/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)

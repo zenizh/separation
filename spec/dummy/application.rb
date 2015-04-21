@@ -3,7 +3,7 @@ $:.unshift File.expand_path('../../../lib', __FILE__)
 require 'action_controller/railtie'
 require 'action_view/railtie'
 
-require 'variauto'
+require 'separate_views'
 
 module Dummy
   class Application < Rails::Application
