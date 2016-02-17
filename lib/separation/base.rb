@@ -1,8 +1,8 @@
-module SeparateViews
+module Separation
   module Base
     class << self
       def included(base)
-        base.send :before_action, :set_variant
+        base.send(:before_action, :set_variant)
       end
     end
 

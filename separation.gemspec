@@ -1,13 +1,13 @@
 $:.unshift File.expand_path('../lib', __FILE__)
 
-require 'separate_views/version'
+require 'separation/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'separate_views'
-  s.version     = SeparateViews::VERSION
+  s.name        = 'separation'
+  s.version     = Separation::VERSION
   s.authors     = 'kami'
-  s.email       = 'kami30k@gmail.com'
-  s.homepage    = 'https://github.com/kami30k/separate_views'
+  s.email       = 'hiroki.zenigami@gmail.com'
+  s.homepage    = 'https://github.com/kami-zh/separation'
   s.summary     = 'Render separate views depending on the user device type for Rails.'
   s.description = 'Render separate views depending on the user device type for Rails.'
   s.license     = 'MIT'

@@ -1,9 +1,9 @@
-# separate_views
+# Separation
 
-[![Build Status](https://travis-ci.org/kami30k/separate_views.svg)](https://travis-ci.org/kami30k/separate_views)
-[![Gem Version](https://badge.fury.io/rb/separate_views.svg)](http://badge.fury.io/rb/separate_views)
+[![Build Status](https://travis-ci.org/kami-zh/separation.svg)](https://travis-ci.org/kami-zh/separation)
+[![Gem Version](https://badge.fury.io/rb/separation.svg)](http://badge.fury.io/rb/separation)
 
-separate_views renders separate views depending on the user device type for Rails.
+Separation renders separate views depending on the user device type for Rails.
 This feature is realized by Action Pack Variants.
 
 ## Installation
@@ -11,7 +11,7 @@ This feature is realized by Action Pack Variants.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'separate_views'
+gem 'separation'
 ```
 
 And then execute:
@@ -37,7 +37,7 @@ If you don't prepare specific view, Rails application renders default view (e.g.
 
 ## Contributing
 
-1. Fork it ( https://github.com/kami30k/separate_views/fork )
+1. Fork it ( https://github.com/kami-zh/separation/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
